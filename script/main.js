@@ -12,11 +12,12 @@ function Saludar(props){
 }
 ReactDOM.render(
 <div className="row">
-    <Saludar name="Pablo" />
+    <Saludar name="Pablo1" />
     <Saludar name="Juan" />    
     <Saludar name="Marta" />  
     <Saludar name="Juana" />  
 </div>,
 
-document.getElementById('app')
-);
+document.getElementById('app') 
+); 
+ 
